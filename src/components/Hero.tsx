@@ -2,6 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 const EVENT_TITLE = (
   <>
     <span className="text-gray-900">BNP Paribas</span>{' '}<br/>
+  </>
+);
+const SUB_TITLE = (
+  <>
     <span className="text-[#007749]">ISPL Campus Challenge 2025</span>
   </>
 );
@@ -50,6 +54,9 @@ const Hero: React.FC = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-2">
             {EVENT_TITLE}
           </h1>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-2">
+            {SUB_TITLE}
+          </h2>
           <p className="text-gray-700 text-lg md:text-xl mb-6">
             {EVENT_DESC}
           </p>
