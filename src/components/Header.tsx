@@ -16,7 +16,7 @@ const Header: React.FC = () => {
   const menuItems = [
     'ABOUT US',
     'INFORMATION TECHNOLOGY',
-    'INNOVERSITE',
+    'INNOVERSITÉ',
     'FAQS',
     'GRADUATE PROGRAM'
   ];
