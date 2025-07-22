@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 const EVENT_TITLE = (
   <>
-    <span className="text-gray-900">BNP Paribas</span>{' '}
+    <span className="text-gray-900">BNP Paribas</span>{' '}<br/>
     <span className="text-[#007749]">ISPL Campus Challenge 2025</span>
   </>
 );
